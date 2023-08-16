@@ -18,9 +18,9 @@ function App() {
   // HTML rendered here
   return (
     <div className="container-fluid">
-        <h1>Hello World</h1>
+        <h1>Welcome</h1>
         <p>
-          This is the frontpage of your app.
+          Welcome. This is a safe space. 
         </p>
         <p>
           New here? <a href="/signup">Click here to sign up!</a> Returning users can <a href="/login">login here!</a>

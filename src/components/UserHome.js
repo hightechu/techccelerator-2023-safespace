@@ -28,9 +28,9 @@ const UserHome = () => {
  
     return (
         <div className="container-fluid">        
-            <h1>Welcome back, {currentUser.email}</h1>
+            <h1> Who are we?</h1>
             <p>
-                This is your user homepage. This is a good place to put their main feed.
+                There is far too much stigma surrounding men's mental health, especially in adolescence. Everyone deserves to feel safe asking for help, and to receive the support they need. Our mission is to eliminate the stigma and help young men open up about their struggles and see that they are not alone.
             </p>
             <button onClick={handleLogout}>Logout</button>
         </div>
