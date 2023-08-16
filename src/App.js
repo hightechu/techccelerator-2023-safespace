@@ -23,7 +23,7 @@ function App() {
           This is the frontpage of your app.
         </p>
         <p>
-          New here? <a href="/signup">Click here to sign up!</a> Returning users can <a href="/login">login here!</a>
+           <a href="/signup" className="button">Sign Up</a>  <a href="/login" className="button1">Login</a>
         </p>
     </div>
   );
