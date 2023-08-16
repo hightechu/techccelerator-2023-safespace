@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -8,10 +9,22 @@ body {
 }
 .container-fluid {
   padding: 1.5rem;
+  background-color: #3F4B3B;
+
 }
+.container {
+  padding: 2rem;
+  background-color: green
+  
+}
+
+.div1 {
+  background-color: green;
+  background-repeat: no-repeat;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* DEVELOPERS ADD CUSTOM CSS BELOW */
@@ -19,3 +32,45 @@ code {
 .custom-class {
   color: red;
 }
+
+h1 {
+  color: #fffffc;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  color: #fffffc; 
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.button {
+  background-color: #CBE896;
+  border:  none;
+  color: #fffffc;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #44633F;
+  border:  none;
+  color: #000;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button  {border-radius: 4px;}
+.button1 {border-radius: 4px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 4px;}
+.button4 {border-radius: 4px;}
+
