@@ -20,10 +20,9 @@ function App() {
     <div className="container-fluid">
         <h1>Welcome</h1>
         <p>
-          Welcome. This is a safe space. 
-        </p>
-        <p>
-           <a href="/signup" className="buttonSignup">Sign Up</a>  <a href="/login" className="buttonLogin">Login</a>
+          Welcome. This is a safe space.
+           <a href="/signup" className="buttonSignup">Sign Up</a> 
+           <a href="/login" className="buttonLogin">Login</a>
         </p>
     </div>
   );

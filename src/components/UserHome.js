@@ -30,7 +30,7 @@ const UserHome = () => {
         <div className="container-fluid">        
             <h1> Who are we?</h1>
             <p>
-                There is far too much stigma surrounding men's mental health, especially in adolescence. Everyone deserves to feel safe asking for help, and to receive the support they need. Our mission is to eliminate the stigma and help young men open up about their struggles and see that they are not alone.
+                There is far too much stigma surrounding men's mental health, especially in adolescence. Everyone deserves to feel safe asking for help, and to receive the support they need. Our mission here at Safe Space is to eliminate the stigma and help young men open up about their struggles and see that they are not alone. We provide peer support, mental health resources, crisis lines and in-person booking aids all in one place. 
             </p>
             <button onClick={handleLogout}>Logout</button>
         </div>
