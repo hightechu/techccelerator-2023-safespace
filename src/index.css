@@ -50,6 +50,7 @@ h1 {
   font-family: 'Ubuntu', sans-serif;
 }
 
+
 p {
   color: #fffffc; 
   font-family: 'Ubuntu', sans-serif;
@@ -101,6 +102,7 @@ p {
   background-color:#fffffc;
   color: #000;
 }
+
 
 .buttonLogin  {border-radius: 4px;}
 .buttonSignup {border-radius: 4px;}
@@ -179,4 +181,21 @@ p {
   font-family: 'Ubuntu', sans-serif;
   border-radius: 10px 10px 10px 10px;
 
+
+.button  {border-radius: 4px;}
+.button1 {border-radius: 4px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 4px;}
+.button4 {border-radius: 4px;}
+
+.text-box {
+  margin: 100px 25px 25px 100px;
+}
+
+p.texting {
+  color: black !important; 
+}
+
+img {
+  width: 100%;
 }
