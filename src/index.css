@@ -38,6 +38,7 @@ h1 {
   font-family: 'Ubuntu', sans-serif;
 }
 
+
 p {
   color: #fffffc; 
   font-family: 'Ubuntu', sans-serif;
@@ -73,3 +74,15 @@ p {
 .button2 {border-radius: 4px;}
 .button3 {border-radius: 4px;}
 .button4 {border-radius: 4px;}
+
+.text-box {
+  margin: 100px 25px 25px 100px;
+}
+
+p.texting {
+  color: black !important; 
+}
+
+img {
+  width: 100%;
+}
