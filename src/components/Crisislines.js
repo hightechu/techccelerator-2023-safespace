@@ -31,6 +31,8 @@ import React from 'react';
     <a href="tel:18006639122">Child Abuse Crisis Line BC</a>
     <br/>
     <p className="texting">If you or someone you know is being abused or neglected.</p>
+    <br/>
+    <p className="texting"><strong>If you or someone you know is in danger or need of immediate medical intervention, please call 911.</strong></p>
     </div>
    
   )
