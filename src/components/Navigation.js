@@ -10,6 +10,10 @@ const Navigation = () => {
                     <NavLink  eventKey="1" as={Link} to="/">My Awesome App</NavLink>
                     <NavLink  eventKey="3" as={Link} to="/Resources">Resources</NavLink>
                     <NavLink  eventKey="2" as={Link} to="/Chat">Chat</NavLink>
+                    <NavLink  eventKey="4" as={Link} to="/Crisislines">Crisis lines</NavLink>
+                    <NavLink  eventKey="5" as={Link} to="/Booking">Booking</NavLink>
+
+
                 </Nav>
             </Navbar.Collapse>     
         </Navbar>

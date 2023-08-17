@@ -15,6 +15,8 @@ import Resources from "./components/Resources";
 import App from './App';
 import AddDataSample from './components/AddDataSample';
 import Chat from './components/Chat'
+import Crisislines from './components/Crisislines'
+import Booking from './components/Booking'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // Add routes after line 30
@@ -30,6 +32,9 @@ root.render(
             <Route path='/Resources' element={<Resources/>}/>
             <Route path='/adddatasample' element={<AddDataSample/>}/>
             <Route path='/Chat' element={<Chat/>}/>
+            <Route path='/Crisislines' element={<Crisislines/>}/>
+            <Route path='/Booking' element={<Booking/>}/>
+
         </Routes>
     </BrowserRouter>
   </React.StrictMode>,
