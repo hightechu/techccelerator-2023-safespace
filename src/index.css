@@ -33,6 +33,18 @@ code {
   color: red;
 }
 
+/* Icons */
+.chatI:hover:after {
+  content: "\f075";
+}
+
+
+
+/* HOME PAGE  */
+h2 {
+  color: #fffffc;
+}
+
 h1 {
   color: #fffffc;
   font-family: 'Ubuntu', sans-serif;
@@ -45,20 +57,8 @@ p {
 
 }
 
-.button {
+.buttonSignup {
   background-color: #CBE896;
-  border:  none;
-  color: #fffffc;
-  padding: 10px 30px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.button1 {
-  background-color: #44633F;
   border:  none;
   color: #000;
   padding: 10px 30px;
@@ -67,7 +67,120 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  transition-duration: 0.4s;
+  position: absolute;
+  top: 7%;
+  right: 13%;
+  font-family: 'Ubuntu', sans-serif;
+  
 }
+
+.buttonSignup:hover {
+  background-color: #44633f;
+  color: #fffffc;
+
+}
+
+.buttonLogin {
+  background-color: #44633F;
+  border:  none;
+  color: #fffffc;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  position: absolute;
+  top: 7%;
+  right: 1%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.buttonLogin:hover {
+  background-color:#fffffc;
+  color: #000;
+}
+
+
+.buttonLogin  {border-radius: 4px;}
+.buttonSignup {border-radius: 4px;}
+
+/* RESOURCES */
+
+.btn-group .buttonMh {
+  background-color: #CBE896;
+  border: 1px solid #44633F;
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+}
+.btn-group .buttonMh:first-child{
+  border-radius: 10px 0 0 10px;
+  margin-left: 0px;
+}
+
+
+
+.btn-group .buttonMh:last-child{
+  border-radius: 0 10px 10px 0;
+  margin-left: 0px;
+}
+
+.btn-group .buttonMh:only-child {
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+}
+
+.btn-group .buttonMh:not(last-child) {
+  border-bottom: none;
+}
+.btn-group .buttonMh:hover {
+  background-color:#44633F;
+  color: #fffffc;
+}
+
+.btn-group1 .buttonMh1 {
+  background-color: #CBE896;
+  border: 1px solid #44633F;
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  width: 200px;
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.btn-group1 .buttonMh1:not(last-child) {
+  border-bottom: none;
+}
+.btn-group1 .buttonMh1:hover {
+  background-color:#44633F;
+  color: #fffffc;
+}
+
+.btn-group2 .buttonMh2 {
+  background-color: #CBE896;
+  border: 1px solid #44633F;
+  color: #000;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  width: 200px;
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 10px 10px 10px 10px;
+
 
 .button  {border-radius: 4px;}
 .button1 {border-radius: 4px;}

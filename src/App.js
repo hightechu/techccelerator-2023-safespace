@@ -23,7 +23,7 @@ function App() {
           Welcome. This is a safe space. 
         </p>
         <p>
-           <a href="/signup" className="button">Sign Up</a>  <a href="/login" className="button1">Login</a>
+           <a href="/signup" className="buttonSignup">Sign Up</a>  <a href="/login" className="buttonLogin">Login</a>
         </p>
     </div>
   );
