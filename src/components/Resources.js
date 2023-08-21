@@ -25,11 +25,13 @@ import React from 'react';
         <a href="https://kidshelpphone.ca/get-info/healthy-relationships-vs-unhealthy-relationships/?msclkid=e98b0ee1c38815834c5e6a3cdfdccbcc&utm_source=bing&utm_medium=cpc&utm_campaign=Kids%20Help%20Phone%20Paid_Gateway-Bing-NTL_2023-194_Search_Generic-NTL_En_CA&utm_term=relationship%20help&utm_content=Kids%20Help%20Phone%20Paid_Gateway-Bing-NTL_2023-194_Search_Generic-NTL_En_CA_Relationships" class="buttonMh2" target="_blank">Healthy Relationships - Kids Help Phone</a>
         </div>
         <h2>Substance abuse</h2>
-        <a href="https://ccsa.ca/youth-and-emerging-adults" target="_blank">Canadian Centre on Substance Use and Addiction</a>
+        <div className="btn-group">
+        <a href="https://ccsa.ca/youth-and-emerging-adults" class="buttonMh" target="_blank">Canadian Centre on Substance Use and Addiction</a>
         <br/>
-        <a href="https://www.canada.ca/en/health-canada/services/substance-use/get-help-with-substance-use.html" target="_blank">Canada.ca</a>
+        <a href="https://www.canada.ca/en/health-canada/services/substance-use/get-help-with-substance-use.html" class="buttonMh" target="_blank">Canada.ca</a>
         <br/> 
-        <a href="https://foundrybc.ca/articles/substance-use-tips-reducing-risk-harm/?return_page=2109" target="_blank">Harm Reduction - Foundry BC</a>
+        <a href="https://foundrybc.ca/articles/substance-use-tips-reducing-risk-harm/?return_page=2109" class="buttonMh" target="_blank">Harm Reduction - Foundry BC</a>
+        </div>
     </div>
   )
 
