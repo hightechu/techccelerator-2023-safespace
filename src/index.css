@@ -184,13 +184,15 @@ p {
 .button4 {border-radius: 4px;}
 
 .text-box {
-  margin: 100px 25px 25px 100px;
+  margin: 80px 25px 25px 10px;
 }
 
 p.texting {
   color: black !important; 
 }
 
+img {
+  width: 100%;
 
 
 .test {

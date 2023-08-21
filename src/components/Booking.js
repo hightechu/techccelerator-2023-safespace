@@ -13,7 +13,7 @@ import vanisle from './vanisle.png';
     </div>
     <img src={vanisle} alt="Map of Vancouver Island"></img>
     <form action="/action_page.php">
-      <label for="location">Choose your location:</label>
+      <label for="location">Please select your location: </label>
       <select name="location" id="location">
         <option value="Victoria">Victoria</option>
         <option value="Langford">Langford</option>
