@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const UserHome = () => {
 
     // Use this code (lines 9-18) on other pages that you only want authenticated users to see
-    const currentUser = auth.currentUser;
+   // const currentUser = auth.currentUser;
     const navigate = useNavigate();
     useEffect(()=>{
         onAuthStateChanged(auth, (user) => {
