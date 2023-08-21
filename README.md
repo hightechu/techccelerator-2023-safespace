@@ -9,6 +9,8 @@ Safe Space was created in the HighTechU Techccelerator program (August 2023).
 
 Safe Space is an app that provides young men with mental health resources such as quick access to booking systems for counseling appointments, online resources, and a secure, peer-to-peer chat. [View the protoype here](https://safespace-a744f.firebaseapp.com/) or [check out the business pitch here.](https://docs.google.com/presentation/d/1YuhBh8Cu42MCOk6tpnndt5Q500_6C1KRCNN3KckgBtA/edit#slide=id.p)
 
+_Safe Space is the winner of the Innovation Award_
+
 ## Technologies
 
 The HighTechU Techccelerator web app uses the following technologies: Node.js, React.js, Firebase, and Bootstrap.
